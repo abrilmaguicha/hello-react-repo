@@ -4,7 +4,7 @@ const cors     = require('cors');
 const morgan   = require('morgan');
 const path     = require('path');
 
-const port = process.env.PORT        || 3000;
+const port = process.env.PORT        || 4000;
 const db   = process.env.MONGODB_URI || 'mongodb://localhost/notas';
 
 const app = express();
